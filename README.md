@@ -11,6 +11,8 @@ Actual processes occurring in IC engines are very complex consequently, a common
 
 The following picture shows the graph between temparature vs entropy , pressure vs volume.
 
+![image](https://user-images.githubusercontent.com/70133134/112191158-bc907c00-8c2b-11eb-9cbb-1b2fab7946cb.png)
+
 Stage 1:1-2 Isentropic compression.
 Stage 1:2-3 Constant-volume heat addition.
 Stage 1:3-4 Isentropic expansion.
@@ -37,5 +39,6 @@ term2 = R +1 - cosd(theta);
 term3 = (R^2 - sind(theta).^2).^0.5;     
 v= (1 + term1*(term2 - term3)).*vc;    
 end
+
 
 
